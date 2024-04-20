@@ -16,7 +16,7 @@ export const navItems = [
   { label: "Features", href: "#" },
   { label: "Workflow", href: "#" },
   { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Admin Portal", href: "#" },
 ];
 
 export const testimonials = [
@@ -60,70 +60,70 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <ShieldHalf />,
+    text: "EPCS Certified",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Prescribe long-term intravenous anti-psychotic medications",
+  },
+  {
+    icon: <BotMessageSquare />,
+    text: "AI-assistance",
+    description:
+      "Mitigate human error as much as possible with our integrated AI-safety and interaction checks",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "One-Stop",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
-  },
-  {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
-    description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "View medication and patient history, with optimizations for next and prevous injections",
   },
   {
     icon: <BatteryCharging />,
     text: "Real-Time Preview",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Preview your changes in real-time, and monitor how prescriptions affect patient health long term through our analytic tools.",
   },
   {
     icon: <PlugZap />,
     text: "Collaboration Tools",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Work together with your team in real-time on the go, enabling seamless collaboration and sharing.",
   },
   {
     icon: <GlobeLock />,
     text: "Analytics Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Gain valuable insights into patient medical history"
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Prescription management",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Get a first-hand look at how our integrated software will help you streamline your practice with a virtual demo.",
   },
   {
-    title: "Review code without worry",
+    title: "Alerting",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      'Our clinical alerts are meticulously engineered to prioritize patient welfare and streamline your prescribing endeavors. These alerts encompass a multifaceted array of considerations, spanning from potential drug interactions and allergic sensitivities to precise dosing guidelines and the prevention of redundant therapies.'
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "AI Assistance",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "LongevtyRx software learns your e-prescribing patterns in order to facilitate medication decisions with fewer clicks, cleaner sig instructions and reduced need for back-and-forth pharmacy clarifications.",
   },
   {
     title: "Share work in minutes",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      " Build personalized formulary guidance tailored to the specific profiles of individual patients, while also empowering you with the flexibility to designate preferred medications aligned with your professional expertise and practice preferences.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Standard",
+    price: "$1089",
     features: [
       "Private board sharing",
       "5 Gb Storage",
@@ -132,8 +132,8 @@ export const pricingOptions = [
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Clinic",
+    price: "$4999",
     features: [
       "Private board sharing",
       "10 Gb Storage",
@@ -143,7 +143,7 @@ export const pricingOptions = [
   },
   {
     title: "Enterprise",
-    price: "$200",
+    price: "Contact",
     features: [
       "Private board sharing",
       "Unlimited Storage",

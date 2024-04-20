@@ -13,7 +13,7 @@ const Pricing = () => {
             <div className="p-10 border border-neutral-700 rounded-xl">
               <p className="text-4xl mb-8">
                 {option.title}
-                {option.title === "Pro" && (
+                {option.title === "Clinic" && (
                   <span className="bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2">
                     (Most Popular)
                   </span>
