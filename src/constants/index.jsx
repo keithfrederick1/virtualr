@@ -123,7 +123,7 @@ export const checklistItems = [
 export const pricingOptions = [
   {
     title: "Standard",
-    price: "$1089",
+    price: "$749",
     features: [
       "Private board sharing",
       "5 Gb Storage",
@@ -133,7 +133,7 @@ export const pricingOptions = [
   },
   {
     title: "Clinic",
-    price: "$4999",
+    price: "starting at 1099",
     features: [
       "Private board sharing",
       "10 Gb Storage",
